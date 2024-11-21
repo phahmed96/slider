@@ -1,0 +1,43 @@
+.item{
+    cursor: pointer;
+}
+
+
+.item-caption{
+text-align: center;
+    width: 80%;
+    bottom: 30px;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.lightbox-container{
+
+    background-color:rgba(0, 0, 0, .6);
+
+}
+
+.lightbox-item{
+    width: 50%;
+    height: 70vh;
+    background-image:url(../images/seafood-5.jpg);
+    background-size:100% 100%;
+    position: relative;
+
+}
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.lightbox-item i 
+{
+font-size: 30px;
+cursor: pointer;
+color: bisque;
+margin: 10px;
+
+}
